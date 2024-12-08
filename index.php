@@ -1,4 +1,4 @@
-<?php require_once './res/config/option.php'; ?>
+<?php require_once './res/config/minhnhat.php'; ?>
 <?php 
 $ThanhDieuHeader = new ThanhDieuHeader();
 $ThanhDieuLoveDays = new ThanhDieuLoveDays();
