@@ -7,13 +7,13 @@ interface ThanhDieuConfigInterface {
     public function CommonMethod();
 }
 class ThanhDieuHeader implements ThanhDieuConfigInterface {
-    public $title = "Vương Thanh Diệu | Resources V5";
-    public $description = "Hi my name is ThanhDieu / A freelance / web developer / vexer";
+    public $title = "Hoàng Minh Nhật | Resources V5";
+    public $description = "Hi my name is MinhNhat / A freelance / web developer / vexer";
     public $keywords = "thanhdieu,web thanh dieu,vuong thanh dieu,thanhdieutv,wsteam,wusteam,thanhdieu home,profile thanhdieu";
     public $favicon = "./res/v5/img/logo.jpg";
-    public $namesite = "THANHDIEU | HOME";
+    public $namesite = "MINHNHAT | HOME";
     public $avatar = "./res/v5/img/avatar.gif";
-    public $userName = ["Hello Everybody", "My name is ThanhDieu.", "I really like website design 🌭"];
+    public $userName = ["Hello Everybody", "My name is MinhNhat.", "I really like website design 🌭"];
     public $trigger = "👉 Tìm hiểu tôi 😶&zwj;🌫️";
     public $bio1 = "🤖️ Người đâm mê công nghệ số";
     public $bio2 = "🔍 Chia sẻ và giúp đỡ nhiệt tình";
@@ -22,24 +22,24 @@ class ThanhDieuHeader implements ThanhDieuConfigInterface {
     public $bio5 = "Ăn, ngủ, làm và chơi game 🎮";
     public $bio6 = "Kẻ khờ dại tin vào tình yêu ✨";
     public $SocialNetworks = [
-        "facebook" => "https://facebook.com/wusthanhdieu", // Thay link facebook
+        "facebook" => "https://facebook.com/HBM1209", // Thay link facebook
         "instagram" => "https://www.instagram.com/vuongsondieu2k2", // Thay link instagram
-        "tiktok" => "https://www.tiktok.com/", // Thay link tiktok
+        "tiktok" => "https://www.tiktok.com/minhnhatvtv", // Thay link tiktok
         "telegram" => "https://t.me/thanhdieuchannel" // Thay link telegram
     ];
-    public function CommonMethod(){date_default_timezone_set('Asia/Ho_Chi_Minh');}
+    public function CommonMethod(){date_default_timezone_set('Asia/Nghe_An');}
 }
 
 
 class ThanhDieuLoveDays implements ThanhDieuConfigInterface {
     public $ConfigLove = [
         "avatar_male" => "./res/v5/img/male.jpeg", // Thay đường dẫn tới thư mục chứa ảnh của bạn hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_male" => "ThanhDieu", // Thay tên của bạn
+        "name_male" => "MinhNhat", // Thay tên của bạn
         //========================================================//
         "avatar_female" => "./res/v5/img/female.jpeg", // Thay đường dẫn tới thư mục chứa ảnh bạn gái hoặc up ảnh lấy link tại img.thanhdieu.com
-        "name_female" => "Ngoc Tram", // Thay tên đối phương
+        "name_female" => "MinhNhat", // Thay tên đối phương
         //========================================================//
-        "time_relashiption" => "28/03/2024" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
+        "time_relashiption" => "12/02/2024" // Định dạng ngày tháng năm: DD-MM-YYYY or / or :
         //========================================================//
     ];
     public function CommonMethod() {}
